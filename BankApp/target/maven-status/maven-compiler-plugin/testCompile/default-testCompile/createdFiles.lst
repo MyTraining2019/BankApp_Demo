@@ -1,0 +1,8 @@
+org\cap\demo\SampleTest.class
+org\cap\demo\LoginTestCases.class
+org\cap\demo\ParameterizedTestCase.class
+org\cap\demo\MockitoTestCase.class
+org\cap\demo\ReportCategory.class
+org\cap\demo\BankAppTestCase.class
+org\cap\demo\LoginCategory.class
+org\cap\demo\MyTestSuite.class
