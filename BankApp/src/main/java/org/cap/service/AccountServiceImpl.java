@@ -22,10 +22,12 @@ public class AccountServiceImpl implements AcccountService{
 	@Override
 	public Account addAccount(Customer customer, double amount) throws InvalidInitialAmountException {
 		
-		if(customer==null)
+		if(customer==null){
 			throw new IllegalArgumentException();
-		if(amount<500)
+		}
+		if(amount<500){
 			throw new InvalidInitialAmountException();
+		}
 		
 		Account account=new Account();
 		account.setAccountNo(AccountUtil.generateAccountNumber());
